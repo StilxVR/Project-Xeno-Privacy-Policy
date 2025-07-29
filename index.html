@@ -19,17 +19,26 @@
     }
 
     .discord-button {
+      display: inline-flex;
+      align-items: center;
       background-color: #5865F2;
       color: white;
       padding: 12px 20px;
       text-decoration: none;
       border-radius: 20px;
       font-weight: bold;
+      font-size: 16px;
       transition: background-color 0.3s ease;
     }
 
     .discord-button:hover {
       background-color: #4752c4;
+    }
+
+    .discord-button img {
+      height: 20px;
+      width: 20px;
+      margin-right: 10px;
     }
 
     .policy-container {
@@ -57,7 +66,10 @@
 <body>
 
   <div class="header">
-    <a class="discord-button" href="https://discord.gg/z338vtgrqX" target="_blank">Join the Discord</a>
+    <a class="discord-button" href="https://discord.gg/z338vtgrqX" target="_blank">
+      <img src="https://stilxvr.github.io/Project-Xeno-Privacy-Policy/discord-logo.png" alt="Discord Logo">
+      Join the Discord
+    </a>
   </div>
 
   <div class="policy-container">
